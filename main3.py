@@ -1,6 +1,10 @@
 import time
 import os
-import wikipedia
+
+try:
+    import wikipedia 
+except:
+    os.system('pip install wikipedia')
 
 
 
